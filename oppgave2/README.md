@@ -9,6 +9,7 @@ Det går fint hvis dere ikke blir ferdig.
 
 Det anbefales å bruke Typescript for dette men vanilla Javascript er lov.
 
+⚠️WARNING⚠️
 AI er lov men vi ønsker helst at dere utforsker selv og spørre oss Lærlingene før dere går til AI.
 
 For styling så anbefales det å bruke Tailwind CSS.
@@ -18,6 +19,14 @@ Det anbefales også å bruke et UI-Rammeverk som:
 - [PrimeVue](https://primevue.org/)
 - [Vuetify](https://vuetifyjs.com/en/)
 - [Reka](https://reka-ui.com/)
+
+## 🔴IMPORTANT❗ Hvordan sette opp Nuxt
+
+I en mappe skriv i terminalen
+
+`npm create nuxt@latest`
+
+Du vil få opp noen prompts der. Viktigste er å initialiser git og legge til ingen andre moduler.
 
 ## Nettsiden skal inneholde:
 
@@ -50,7 +59,7 @@ Kommer dere langt nokk så kan dere lage:
     - OBS!!! Hvis man bruker **Better-Auth** så burde man følge guiden deres på https://www.better-auth.com/docs/integrations/nuxt
 - Eksperimentere med `/server` mappen til Nuxt.
   - Sette opp et API med server mappen.
-    - Hva den gir tilbake er valgfritt.
+    - Hva responsen blir er valgfritt.
 
 ## Ekstra++
 
@@ -73,9 +82,9 @@ Her er noen ting som man kan lage
 
 ## Ressurser
 
+- 🔥**Lærlingene**🦤 = 🍗
 - [Vue Introduction] (https://vuejs.org/guide/introduction.html)
 - [Nuxt Getting Started] (https://nuxt.com/docs/4.x/getting-started/)
 - [Nuxt Directory Structure] (https://nuxt.com/docs/4.x/directory-structure)
 - [Nuxt API Reference] (https://nuxt.com/docs/4.x/api)
 - [Nuxt in 100 seconds] (https://www.youtube.com/watch?v=dCxSsr5xuL8)
-- Lærlingene
