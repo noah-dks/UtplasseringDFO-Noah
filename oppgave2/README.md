@@ -8,6 +8,7 @@ Prosjektet skal bli vist fram foran Teamet siste dagen.
 Det går fint hvis dere ikke blir ferdig.
 
 Det anbefales å bruke Typescript for dette men vanilla Javascript er lov.
+
 AI er lov men vi ønsker helst at dere utforsker selv og spørre oss Lærlingene før dere går til AI.
 
 For styling så anbefales det å bruke Tailwind CSS.
@@ -27,13 +28,17 @@ Det anbefales også å bruke et UI-Rammeverk som:
   - Footeren skal inneholde brukernavn/navn og årstall f.eks Enderz 2026
 - En side med data fra et egenvalgt API og vises i en tabell/kort (avhenger av API).
 - En side ved bruk av dynamisk routing. Eksempel: /user/[id]
+  - Trenger bare å vise ID-en til ruten f.eks:
+    - /user/1 blir <code>1</code>
+    - /user/100 blir <code>100</code>
 - En eller flere komponenter. for eksempel: en klokke, knapp eller en komponent som viser data fra et api.
 
-Nettsiden skal være stylet og presenteres med et fint UI.
+Nettsiden skal presenteres med et fint UI.
 
 ## PS:
 
 Hvis du finner ut at du gjenbruker logikk så kan man se på å flytte koden ut i en "composable".
+
 Det kan sammenlignes med en React Hook.
 
 ## Ferdig?
@@ -41,7 +46,8 @@ Det kan sammenlignes med en React Hook.
 Kommer dere langt nokk så kan dere lage:
 
 - Et admin panel som brukeren må autentisere seg for å se.
-  - Anbefaler [nuxt-auth-utils](https://nuxt.com/modules/auth-utils) eller [Better-Auth](https://www.better-auth.com/)
+  - Anbefaler [nuxt-auth-utils](https://nuxt.com/modules/auth-utils) eller [Better-Auth](https://www.better-auth.com/).
+    - OBS!!! Hvis man bruker **Better-Auth** så burde man følge guiden deres på https://www.better-auth.com/docs/integrations/nuxt
 - Eksperimentere med `/server` mappen til Nuxt.
   - Sette opp et API med server mappen.
     - Hva den gir tilbake er valgfritt.
@@ -49,9 +55,14 @@ Kommer dere langt nokk så kan dere lage:
 ## Ekstra++
 
 Prøv å få implementert en backend gjennom denne tutorialen og koble den opp mot nettsiden til å vise data:
+
 https://go.dev/doc/tutorial/web-service-gin
 
 ## Ideer til hva annet man kan lage:
+
+Gått tom for ideer?
+
+Her er noen ting som man kan lage
 
 - En knapp som kan telle ved bruk av websockets
 - Buss oversikt

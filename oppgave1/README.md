@@ -25,6 +25,8 @@ Da alt er ferdig skal programmet slutte.
 
 Dere trenger ikke å bekymre så mye om feil. Eneste kravet er at programmet kjører og at man kan gjøre de enkleste operasjonene.
 
+Hvis dette tar for lang tid kan man gå til oppgave 2.
+
 ## Anbefalte ressurser
 
 - Google

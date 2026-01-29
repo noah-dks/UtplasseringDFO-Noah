@@ -72,3 +72,5 @@
     <td>Avsluttning</td>   
   </tr>    
 </table>
+
+Prosjektet er beskrevet i [Oppgave 2](/oppgave2/README.md). Dette kommer til å ta meste parten av uken.
