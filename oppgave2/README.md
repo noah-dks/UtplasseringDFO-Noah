@@ -9,7 +9,7 @@ Det går fint hvis dere ikke blir ferdig.
 
 Det anbefales å bruke Typescript for dette men vanilla Javascript er lov.
 
-⚠️WARNING⚠️
+⚠️VIKTIG!⚠️
 AI er lov men vi ønsker helst at dere utforsker selv og spørre oss Lærlingene før dere går til AI.
 
 For styling så anbefales det å bruke Tailwind CSS.
@@ -20,7 +20,7 @@ Det anbefales også å bruke et UI-Rammeverk som:
 - [Vuetify](https://vuetifyjs.com/en/)
 - [Reka](https://reka-ui.com/)
 
-## 🔴IMPORTANT❗ Hvordan sette opp Nuxt
+## 🔴OBS❗ Hvordan sette opp Nuxt
 
 I en mappe skriv i terminalen
 
