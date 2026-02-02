@@ -1,3 +1,3 @@
-module utplassering/dfo
+module utplassering/calculator
 
 go 1.25.6
