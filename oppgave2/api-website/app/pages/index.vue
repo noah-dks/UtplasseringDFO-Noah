@@ -1,10 +1,6 @@
 <template>
-  <div>
-    <ul>
-      <li v-for="article in data">
-        {{ article.title}}
-      </li>
-    </ul>
+  <div v-for="article in data">
+    <ArticleCard :article="article" :key="article.article_id" />
   </div>
 </template>
 
@@ -14,4 +10,5 @@ const data = await fetchNews("trump");
 if (!data) {
   throw new Error();
 }
+
 </script>

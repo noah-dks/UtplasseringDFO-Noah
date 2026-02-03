@@ -13,9 +13,9 @@ export const fetchNews = async (search: string) => {
   //   }
   const config = useRuntimeConfig();
 
-  const { data } = await useFetch(
+  const { data } = await useFetch<NewsArticle[]>(
     `https://newsdata.io/api/1/latest?apikey=${config.public.apikey}&q=${search}&language=en`,
   );
 
-  return data.value.results as NewsArticle[];
+  return data.value;
 };
