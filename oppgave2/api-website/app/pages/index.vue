@@ -1,5 +1,5 @@
 <template>
-  <div class = "min-h-screen flex flex-col">
-    <main class="grow"></main>
+  <div>
+    <p>Hello world</p>
   </div>
 </template>

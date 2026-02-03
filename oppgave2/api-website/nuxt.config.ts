@@ -4,4 +4,9 @@ export default defineNuxtConfig({
   modules: ["@nuxt/ui"],
   css: ["~/assets/main.css"],
   devtools: { enabled: true },
+  runtimeConfig: {
+    public: {
+      apikey: '', 
+    },
+  }
 });
