@@ -7,6 +7,7 @@ export interface NewsArticle {
   category: Category[]
   country: string[]
   creator?: string[]
+  keywords?: string[]
   description: string;
   fetched_at: Date;
   image_url: string;
