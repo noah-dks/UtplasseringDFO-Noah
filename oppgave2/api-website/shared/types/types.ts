@@ -5,8 +5,8 @@ export interface Category {
 export interface NewsArticle {
   article_id: string;
   category: Category[]
-  country: string
-  creator?: string
+  country: string[]
+  creator?: string[]
   description: string;
   fetched_at: Date;
   image_url: string;

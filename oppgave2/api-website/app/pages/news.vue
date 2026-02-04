@@ -1,17 +1,21 @@
 <template>
-  <div class="grid grid-cols-4 gap-y-10 my-15 mx-6 justify-items-center">
-    <ArticleCard
-      v-for="article in data"
-      :key="article.article_id"
-      :article="article"
-    />
-  </div>
+    <div class="grid lg:grid-cols-2 xl:grid-cols-4 3xl:grid-cols-5 gap-10  2xl:mx-20 my-15 mx-20 justify-items-center">
+      <ArticleCard
+        v-for="article in data"
+        :key="article.article_id"
+        :article="article"
+        > 
+    </ArticleCard>
+</div>
+
+
 </template>
 
 <script setup lang="ts">
-const data = await fetchNews("a");
+const data = await fetchNews("israel");
 
 if (!data) {
   throw new Error();
 }
+
 </script>
