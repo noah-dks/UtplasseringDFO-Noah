@@ -17,5 +17,5 @@ export const fetchNews = async (search: string) => {
     `https://newsdata.io/api/1/latest?apikey=${config.public.apikey}&q=${search}&language=en`,
   );
 
-  return data.value;
+  return data.value?.results;
 };
