@@ -36,9 +36,9 @@ const route = useRoute();
 const id = route.params.id;
 
 const goBack = () => {
-  navigateTo("/news");
+  const from = route.query.from as string | undefined;
+  navigateTo(from || "/news");
 };
-
 const article = await fetchArticleById(id);
 if (!article) {
   throw new Error();
