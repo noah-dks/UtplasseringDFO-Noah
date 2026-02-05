@@ -12,9 +12,7 @@
 </template>
 
 <script setup lang="ts">
-
-const props = defineProps<{ article: NewsArticle }>();
+const props = defineProps<{ article: BareNewsArticle }>();
 const image = props.article.image_url ?? "N/A";
-const route = useRoute()
-
+const route = useRoute();
 </script>

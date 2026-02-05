@@ -9,7 +9,7 @@
       </NuxtLink>
       <ul class="text-xl text-sky-100/70 flex flex-row gap-15 justify-end">
         <NuxtLink to="/news">News</NuxtLink>
-        <NuxtLink to="/stats">Stats</NuxtLink>
+        <NuxtLink to="/about">About</NuxtLink>
       </ul>
     </div>
   </div>

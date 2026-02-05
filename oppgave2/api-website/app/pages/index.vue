@@ -5,7 +5,7 @@
     <h1 class="text-5xl text-center">
       Type a keyword to see corresponding news:
     </h1>
-    <p>This is a crucial step, to read why please head over to the "Info" page</p>
+    <p>This is a crucial step, to read why please head over to the "About" page</p>
     <template class="flex flex-row gap-2 mt-5" >
       <UInput v-model="searchTerm" placeholder="Search..." />
       <UButton

@@ -44,7 +44,7 @@ if (!article) {
   throw new Error();
 }
 
-const authors = article.creator?.map((c) => ({
+const authors = article.creator?.map((c:string) => ({
   description: "Main author",
   name: capitalizeFirstLetter(c),
 })) ?? [{ name: "Author not found" }];
